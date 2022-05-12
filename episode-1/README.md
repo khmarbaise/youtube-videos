@@ -20,7 +20,11 @@
 The intention of this project is to show how to set up
 [Apache Maven][maven] and [JUnit Jupiter][junit] together within a single project.
 
+This project is related to this YouTube video:
 
+* [JUnitJupiter Episode 1 - Setup JUnit Jupiter in a Apache Maven Project][video]
+ 
+[video]: https://youtu.be/NVvMzy0Lin0
 [junit]: https://junit.org/junit5/
 
 [maven]: https://maven.apache.org
