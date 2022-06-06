@@ -28,7 +28,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-class FirstTest {
+class FirstIT {
 
   @Test
   void first_add() {
@@ -36,14 +36,6 @@ class FirstTest {
     First sum2 = new First(2);
 
     assertThat(sum1.add(sum2)).isEqualTo(new First(7));
-  }
-
-  @Test
-  void second_add() {
-    First sum1 = new First(10);
-    First sum2 = new First(2);
-
-    assertThat(sum1.add(sum2)).isEqualTo(new First(12));
   }
 
   static Stream<Arguments> parameterized() {
