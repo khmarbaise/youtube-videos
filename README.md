@@ -24,4 +24,8 @@ have been created related to different YouTube videos.
 
 * [JUnitJupiter Episode 1 - Setup JUnit Jupiter in an Apache Maven Project][episode-1]
 
+* [JUnitJupiter Episode 2 - Unit- and/or Integration Testing][episode-2]
+
+
 [episode-1]: https://youtu.be/NVvMzy0Lin0
+[episode-2]: https://youtu.be/IVwbrhYCLpc
