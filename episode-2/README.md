@@ -22,7 +22,7 @@ This project is related to this YouTube video:
 
 * [JUnitJupiter Episode 2 - Unit- and/or Integration Testing][video]
  
-[video]: https://youtu.be/XXXXXXXXX
+[video]: https://youtu.be/IVwbrhYCLpc
 [junit]: https://junit.org/junit5/
 
 [maven]: https://maven.apache.org
