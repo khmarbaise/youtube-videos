@@ -23,7 +23,7 @@ import java.util.Objects;
 
 public class First {
 
-  private int sum;
+  private final int sum;
 
   public First(int sum) {
     this.sum = sum;
