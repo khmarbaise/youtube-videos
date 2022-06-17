@@ -47,11 +47,9 @@ class FirstTest {
   }
 
   static Stream<Arguments> parameterized() {
-    return Stream.of(
-        of(new First(1), new First(2), new First(3)),
-        of(new First(2), new First(3), new First(5))
-    );
+    return Stream.of(of(new First(1), new First(2), new First(3)), of(new First(2), new First(3), new First(5)));
   }
+
   @ParameterizedTest
   @MethodSource
   void parameterized(First sum1, First sum2, First result) {
