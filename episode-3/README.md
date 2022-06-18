@@ -15,19 +15,14 @@
  limitations under the License.
 -->
 
-# YouTube Video Example Projects
+# JUnit Jupiter Episode 3 - Running JUnit 4 / JUnit 5 / TestNG Tests within a Maven project.
 
-This repository contains different example projects which 
-have been created related to different YouTube videos.
 
-## Episodes
+This project is related to this YouTube video:
 
-* [JUnitJupiter Episode 1 - Setup JUnit Jupiter in an Apache Maven Project][episode-1]
+* [JUnit Jupiter Episode 3 - Running JUnit 4 / JUnit 5 / TestNG Tests within one project.][video]
+ 
+[video]: https://youtu.be/Xy6m9rNYBhc
+[junit]: https://junit.org/junit5/
 
-* [JUnitJupiter Episode 2 - Unit- and/or Integration Testing][episode-2]
-
-* [# JUnit Jupiter Episode 3 - Running JUnit 4 / JUnit 5 / TestNG Tests within a Maven project][episode-3]
-
-[episode-1]: https://youtu.be/NVvMzy0Lin0
-[episode-2]: https://youtu.be/IVwbrhYCLpc
-[episode-3]: https://youtu.be/Xy6m9rNYBhc
+[maven]: https://maven.apache.org
