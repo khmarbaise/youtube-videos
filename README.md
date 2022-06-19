@@ -26,7 +26,7 @@ have been created related to different YouTube videos.
 
 * [JUnitJupiter Episode 2 - Unit- and/or Integration Testing][episode-2]
 
-* [# JUnit Jupiter Episode 3 - Running JUnit 4 / JUnit 5 / TestNG Tests within a Maven project][episode-3]
+* [JUnit Jupiter Episode 3 - Running JUnit 4 / JUnit 5 / TestNG Tests within a Maven project][episode-3]
 
 [episode-1]: https://youtu.be/NVvMzy0Lin0
 [episode-2]: https://youtu.be/IVwbrhYCLpc
