@@ -54,6 +54,7 @@
     <module>episode-1</module>
     <module>episode-2</module>
     <module>episode-3</module>
+    <module>episode-4</module>
 <!--    <module>episode-toolchains</module>-->
   </modules>
 </project>
