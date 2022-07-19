@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF8"?>
+<toolchains xmlns="http://maven.apache.org/TOOLCHAINS/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/TOOLCHAINS/1.1.0 http://maven.apache.org/xsd/toolchains-1.1.0.xsd">
+
+  <!--
+  You have to configure the appropriate JDK's you would like to use through your
+  build. This configuration represents my own configuration.
+  -->
+  <toolchain>
+    <type>jdk</type>
+    <provides>
+      <version>8</version>
+      <vendor>zulu</vendor>
+    </provides>
+    <configuration>
+      <jdkHome>/Users/khm/.sdkman/candidates/java/8.0.332-zulu</jdkHome>
+    </configuration>
+  </toolchain>
+  <toolchain>
+    <type>jdk</type>
+    <provides>
+      <version>8</version>
+      <vendor>librca</vendor>
+    </provides>
+    <configuration>
+      <jdkHome>/Users/khm/.sdkman/candidates/java/8.0.333-librca</jdkHome>
+    </configuration>
+  </toolchain>
+  <toolchain>
+    <type>jdk</type>
+    <provides>
+      <version>11</version>
+      <vendor>zulu</vendor>
+    </provides>
+    <configuration>
+      <jdkHome>/Users/khm/.sdkman/candidates/java/11.0.15-zulu</jdkHome>
+    </configuration>
+  </toolchain>
+  <toolchain>
+    <type>jdk</type>
+    <provides>
+      <version>17</version>
+      <vendor>zulu</vendor>
+    </provides>
+    <configuration>
+      <jdkHome>/Users/khm/.sdkman/candidates/java/17.0.3-zulu</jdkHome>
+    </configuration>
+  </toolchain>
+</toolchains>
