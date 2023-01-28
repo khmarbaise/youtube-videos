@@ -30,7 +30,7 @@
   <artifactId>example-episode-1</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>Using JUnit Jupiter in an Apache Maven Project</name>
+  <name>JUnit Jupiter - Episode 1: Using JUnit Jupiter in an Apache Maven Project</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

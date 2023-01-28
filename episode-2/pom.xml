@@ -30,7 +30,7 @@
   <artifactId>example-episode-2</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>Episode 2: Unit- and/or Integration Testing</name>
+  <name>JUnit Jupiter - Episode 2: Unit- and/or Integration Testing</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
