@@ -58,12 +58,12 @@
       <dependency>
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
-        <version>7.9.0</version>
+        <version>7.10.2</version>
       </dependency>
       <dependency>
         <groupId>org.assertj</groupId>
         <artifactId>assertj-bom</artifactId>
-        <version>3.25.3</version>
+        <version>3.26.0</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
