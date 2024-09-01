@@ -35,6 +35,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
+    <version.surefire>3.5.0</version.surefire>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -99,7 +100,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.3.1</version>
+          <version>${version.surefire}</version>
           <configuration>
             <skipTests>${skipUTs}</skipTests>
           </configuration>
@@ -107,7 +108,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-failsafe-plugin</artifactId>
-          <version>3.3.1</version>
+          <version>${version.surefire}</version>
           <configuration>
             <skipTests>${skipITs}</skipTests>
           </configuration>

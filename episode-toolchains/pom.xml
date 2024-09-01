@@ -38,6 +38,7 @@
     <maven.compiler.target>8</maven.compiler.target>
     <toolchains.version>8</toolchains.version>
     <toolchans.vendor>librca</toolchans.vendor>
+    <version.surefire>3.5.0</version.surefire>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -103,7 +104,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.3.1</version>
+          <version>${version.surefire}</version>
           <configuration>
             <skipTests>${skipUTs}</skipTests>
             <jdkToolchain>
@@ -115,7 +116,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-failsafe-plugin</artifactId>
-          <version>3.3.1</version>
+          <version>${version.surefire}</version>
           <configuration>
             <skipTests>${skipITs}</skipTests>
             <jdkToolchain>
