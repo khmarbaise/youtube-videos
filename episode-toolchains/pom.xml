@@ -38,7 +38,7 @@
     <maven.compiler.target>8</maven.compiler.target>
     <toolchains.version>8</toolchains.version>
     <toolchans.vendor>librca</toolchans.vendor>
-    <version.surefire>3.5.3⁄</version.surefire>
+    <version.surefire>3.5.3</version.surefire>
   </properties>
   <dependencyManagement>
     <dependencies>
