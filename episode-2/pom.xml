@@ -110,7 +110,7 @@
           <artifactId>maven-failsafe-plugin</artifactId>
           <version>${version.surefire}</version>
           <configuration>
-            <skipTests>${skipITs}</skipTests>
+            <skipITs>${skipITs}</skipITs>
           </configuration>
         </plugin>
         <plugin>
